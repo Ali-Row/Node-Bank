@@ -4,7 +4,7 @@ const withdraw = require('./lib/withdraw');
 const showDeposits = require('./lib/showDeposits');
 
 const init = () => {
-
+    
     const method = process.argv[2];
     
     switch(method) {
