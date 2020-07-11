@@ -9,8 +9,11 @@ This is a mock bank using node and fs.
 4) Replace the method with any of the 4 methods like so:
 
 ('node bank balance') - This will log the current balance to the console.
+
 ('node bank deposit >number<') - Adding a number to this method will deposit an amount to the array in the bank.json file.
+
 ('node bank withdraw >number<') - Adding a number to this method will withdraw an amount from the balance.txt file.
+
 ('node bank history') - This will log all of the deposit history for the account.
 
 
