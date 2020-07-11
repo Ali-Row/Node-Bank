@@ -1,11 +1,11 @@
-let deposit = require('./lib/deposit');
-let showBalance = require('./lib/showBalance');
-let withdraw = require('./lib/withdraw');
-let showDeposits = require('./lib/showDeposits');
+const deposit = require('./lib/deposit');
+const showBalance = require('./lib/showBalance');
+const withdraw = require('./lib/withdraw');
+const showDeposits = require('./lib/showDeposits');
 
 const init = () => {
 
-    let method = process.argv[2];
+    const method = process.argv[2];
     
     switch(method) {
         case 'balance':
