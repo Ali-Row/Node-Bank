@@ -1,7 +1,7 @@
 # Node-Bank
 This is a mock bank using node and fs.
 
-##To run this app:
+**To run this app:**
 
 1) Clone it to your local machine.
 2) Open the folder in Visual Studio.
@@ -9,7 +9,7 @@ This is a mock bank using node and fs.
 4) Replace the method with any of the 4 methods like so:
 
 
-| ##Method                            | ##Input/Output                                                                            | 
+| **Method**                          | **Input/Output**                                                                          | 
 | ------------------------------------|:-----------------------------------------------------------------------------------------:|
 | **'node bank balance'**             | This will log the current balance to the console.                                         |  
 | **'node bank deposit >number<'**    | Adding a number to this method will deposit an amount to the array in the bank.json file. |
