@@ -1,7 +1,7 @@
 let deposit = require('./lib/deposit');
 let showBalance = require('./lib/showBalance');
 let withdraw = require('./lib/withdraw');
-let showTransactions = require('./lib/showTransactions')
+let showDeposits = require('./lib/showDeposits');
 
 const init = () => {
 
@@ -18,7 +18,7 @@ const init = () => {
             withdraw();
         break;
         case 'history':
-            showTransactions();
+            showDeposits();
         break;
     }
 }
