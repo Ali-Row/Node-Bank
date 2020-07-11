@@ -1,7 +1,7 @@
-let deposit = require('../lib/deposit');
-let showBalance = require('../lib/showBalance');
-let withdraw = require('../lib/withdraw');
-let showTransactions = require('../lib/showTransactions')
+let deposit = require('./lib/deposit');
+let showBalance = require('./lib/showBalance');
+let withdraw = require('./lib/withdraw');
+let showTransactions = require('./lib/showTransactions')
 
 const init = () => {
 
