@@ -6,7 +6,7 @@ This is a mock bank using node and fs.
 1) Clone it to your local machine.
 2) Open the folder in Visual Studio.
 3) Open the terminal in Visual Studio and run _**'npm install'**_ to install the all dependencies.
-4) Open the bank.js file in the terminal and type _**'node bank >method<'.**_
+4) Open the _**bank.js**_ file in the terminal and type _**'node bank >method<'.**_
 5) Replace the method with any of the 4 methods like so:
 
 
